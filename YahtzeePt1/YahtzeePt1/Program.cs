@@ -8,7 +8,7 @@ namespace YahtzeePt1
 {
     class Program
     {
-        //Your dice (all values are 0 to start)
+        //Your dice (all values are 0 initially)
         static int die1, die2, die3, die4, die5, die6;
 
         //The categories
