@@ -11,7 +11,7 @@ namespace YahtzeePt1
         //Your dice (all values are 0 initially)
         static int die1, die2, die3, die4, die5, die6;
 
-        //The categories
+        //The categories' names
         static String catrgoryAces = "aces";
         static String catrgoryTwos = "twos";
         static String catrgoryThrees = "threes";
@@ -19,13 +19,13 @@ namespace YahtzeePt1
         static String catrgoryFives = "fives";
         static String catrgorySixes = "sixes";
 
-        //The values categories are worth
-        static int acesWorth = 1;
-        static int twosWorth = 2;
-        static int threesWorth = 3;
-        static int foursWorth = 4;
-        static int fivesWorth = 5;
-        static int sixesWorth = 6;
+        //The values each category is worth
+        static int acesWorth = 1;//Per die
+        static int twosWorth = 2;//Per die
+        static int threesWorth = 3;//Per die
+        static int foursWorth = 4;//Per die
+        static int fivesWorth = 5;//Per die
+        static int sixesWorth = 6;//Per die
 
         //Score
         static int score = 0;
